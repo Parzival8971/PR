@@ -1,0 +1,94 @@
+/* Tablet size */
+@media screen and (max-width:1140px) {}
+
+
+/* Mobile */
+@media screen and (max-width:760px) {
+
+header{
+    padding: 25px 0;
+}
+
+  .logo {
+    font-size: 1em
+  }
+
+  .main-menu ul li a {
+    font-size: 1rem;
+  }
+
+  .contents .visual .title {
+    font-size: 3em;
+    line-height: 1.2;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 4);
+  }
+
+  .contents .visual .title-little {
+    font-size: 1.2em;
+    top: 55%;
+    transform: translateY(-55%);
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 4);
+  }
+
+  #about {
+    width: 100vw;
+    height: 350px;
+  }
+
+  #about .inner {
+    padding-top: 0px;
+    height: 350px;
+    /* background-color: chocolate; */
+  }
+
+  .about_text .title {
+    font-size: 1.8em;
+    text-shadow: 4px 4px 1px black;
+  }
+
+  .about_text p {
+    font-size: 0.875em;
+    font-weight: 600;
+  text-shadow: 2px 2px 5px black;
+    letter-spacing: 0px;
+  }
+
+  .about_text a {
+    font-size: 0.675em;
+    font-weight: 600;
+  text-shadow: 2px 2px 5px black;
+    padding-right: 1px;
+  }
+
+  .about_pic {
+    width: 80%;
+    height: auto;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .about_pic img {
+    filter: brightness(80%);
+  }
+
+  .project_title a {
+    font-size: 4.5em;
+    margin-bottom: 30px;
+    line-height: 100px;
+  }
+
+  .project_title span {
+    font-size: 2em;
+  }
+
+  #to-top{
+  bottom: 20px;
+  right: 20px;
+
+}
+
+  .fa-3x {
+    font-size: 30px;
+  }
+}
